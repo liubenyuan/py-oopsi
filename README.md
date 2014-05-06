@@ -1,4 +1,4 @@
-** this is a working document**
+**this is a working document**
 
 # Py-oopsi: the python implementation of the fast-oopsi algorithm #
 
