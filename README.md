@@ -42,6 +42,13 @@ d,v = oopsi.discretize(F,bins=[0.75])
 
 ## Tweak py-oopsi ##
 
+`py-oopsi` requires
+
+* `F` the fluorescence signal, a `numpy.ndarray` object of 1-D vector;
+* `dt` the frame interval, 1/(frame rate);
+* `iter_max` maximum number of iteration;
+* `update` truth if the parameters are updated after each iteration.
+
 ## Reference ##
 
 * Joshua T Vogelstein, Adam M Packer, Tim A Machado, Tanya Sippy, Baktash Babadi, Rafael Yuste, Liam Paninski
