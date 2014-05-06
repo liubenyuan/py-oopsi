@@ -49,6 +49,8 @@ d,v = oopsi.discretize(F,bins=[0.75])
 * `iter_max` maximum number of iteration;
 * `update` truth if the parameters are updated after each iteration.
 
+when imaging large population of fluorescene signals of multiple neurons, for example, the [connectomics challenge](http://www.kaggle.com/c/connectomics) at kaggle.com, you need to write a subroutine to process the fluorescence trace per neuron.
+
 ## Reference ##
 
 * Joshua T Vogelstein, Adam M Packer, Tim A Machado, Tanya Sippy, Baktash Babadi, Rafael Yuste, Liam Paninski
