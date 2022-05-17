@@ -1,3 +1,4 @@
 build/
 oopsi.egg-info/
+__pycache__/
 
