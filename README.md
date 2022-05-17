@@ -4,13 +4,21 @@
 
 Fast-oopsi was developed by joshua vogelstein in 2009, which is now widely used to extract neuron spike activities from calcium fluorescence signals. Here, we propose detailed implementation of the fast-oopsi algorithm in python programming language. 
 
-Py-oopsi requires `numpy`, `scipy` and `matplotlib`.
+# Installation
+```
+# clone the repisitory with git clone ... and change into the directory
+cd py-oopsi
+# install it using pip, this will also install all requirements
+pip install .
+```
 
 ## Generate Synthetic Calcium Trace ##
 
 To generate synthetic calcium trace, you can
 
 ```python
+import oopsi
+
 T = 2000
 dt = 0.020
 lam = 0.1
@@ -28,6 +36,8 @@ where `F` is the Fluorescence signal with noise, `C` is the clean calcium trace,
 We provide `demo.py` to illustrate the usage of py-oopsi (as well as `wiener filter`, `discretized binning`),
 
 ```python
+import oopsi
+
 # fast-oopsi,
 d,Cz = oopsi.fast(F,dt=dt,iter_max=6)
 
