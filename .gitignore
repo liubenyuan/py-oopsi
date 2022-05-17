@@ -1,4 +1,6 @@
 build/
 oopsi.egg-info/
 __pycache__/
+demo.eps
+demo.png
 
